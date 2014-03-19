@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul#menu  
+{  
+    list-style-type: none;  
+    margin: 4px;  
+    padding: 0px;  
+}  
+  
+ul#menu li  
+{  
+    float: left;  
+    margin: 4px;  
+}  
+  
+ul#menu li.active  
+{  
+    background-color: #98b9d0;  
+    border-left: 1px solid #3564a9;  
+    border-top: 1px solid #3564a9;  
+    border-bottom: 1px solid #e6eef6;  
+    border-right: 1px solid #e6eef6;  
+}  
+  
+ul#menu li a  
+{  
+    text-decoration: none;  
+    font-size: 10px;  
+    padding: 2px;  
+    color: #3564a9;  
+}  
+  
+ul#files  
+{  
+    list-style-type: none;  
+    margin: 40px 0px 0px 0px;  
+    padding: 0px;  
+}  
+  
+ul#files li  
+{  
+    background-color: #fff7c0;  
+    border-bottom: 1px solid #efefef;  
+    padding: 2px;  
+    margin-bottom: 1px;  
+}
+
+ul#files li a
+{
+	text-decoration: none;
+	color: #3564a9;
+	padding: 2px 25px;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+ul#files li.Documents a
+{
+	background-image: url('../images/page_white_text.png');
+}
+
+ul#files li.Images a
+{
+	background-image: url('../images/picture.png');
+}
+
+ul#files li.Applications a
+{
+	background-image: url('../images/page_white_zip.png');
+}
+
+p.error
+{
+	background-color: #fff7c0;
+	border-bottom: 1px solid #efefef;
+	font-weight: bold;
+	color: #ff0000;
+	padding: 6px;
+}
